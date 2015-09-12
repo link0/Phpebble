@@ -1,0 +1,33 @@
+{
+    "name": "link0/phpebble",
+    "description": "Package to interact with Pebble APIs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis de Greef",
+            "email": "github@link0.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Link0\\Phpebble\\": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Link0\\Phpebble\\": ["src/", "tests/fixture/"]
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.1",
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "^6.1"
+    }
+}
