@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?> <phpunit bootstrap="tests/bootstrap.php" colors="true">
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="Link0 Phpebble">
             <directory>./tests/unit</directory>
