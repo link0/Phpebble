@@ -73,8 +73,8 @@ final class GuzzleTimelineTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Exception
-     * @expectedExceptionMessage Invalid API call, reason unknown
+     * @expectedException \Link0\Phpebble\Api\InvalidPinObject
+     * @expectedExceptionMessage Invalid Pin object: foobar-1234
      */
     public function test_invalid_pin_object()
     {
@@ -83,8 +83,8 @@ final class GuzzleTimelineTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Exception
-     * @expectedExceptionMessage Invalid API call, reason unknown
+     * @expectedException \Link0\Phpebble\Api\InvalidTimelineToken
+     * @expectedExceptionMessage Invalid Timeline token: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
      */
     public function test_invalid_user_token()
     {
@@ -93,8 +93,8 @@ final class GuzzleTimelineTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Exception
-     * @expectedExceptionMessage Invalid API call, reason unknown
+     * @expectedException \Link0\Phpebble\Api\RateLimitExceeded
+     * @expectedExceptionMessage API RateLimit exceeded
      */
     public function test_rate_limit_exceeded()
     {
@@ -103,8 +103,8 @@ final class GuzzleTimelineTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Exception
-     * @expectedExceptionMessage Invalid API call, reason unknown
+     * @expectedException \Link0\Phpebble\Api\ServiceUnavailable
+     * @expectedExceptionMessage Service unavailable
      */
     public function test_service_unavailable()
     {
