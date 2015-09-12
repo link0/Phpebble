@@ -107,7 +107,7 @@ final class GuzzleTimeline implements Timeline
      */
     private function handleException(BadResponseException $exception, Pin $pin)
     {
-        switch($exception->getCode()) {
+        switch ($exception->getCode()) {
             case 400: // Invalid pin object
                 throw new InvalidPinObject($pin);
             case 403: // Invalid API key
