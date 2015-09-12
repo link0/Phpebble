@@ -1,5 +1,11 @@
 Phpebble
 ========
+[![Latest Stable Version](https://poser.pugx.org/link0/phpebble/v/stable.svg)](https://packagist.org/packages/link0/phpebble)
+[![Total Downloads](https://poser.pugx.org/link0/phpebble/downloads.svg)](https://packagist.org/packages/link0/phpebble)
+[![License](https://poser.pugx.org/link0/phpebble/license.svg)](https://packagist.org/packages/link0/phpebble)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/link0/phpebble/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/link0/phpebble/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/link0/phpebble/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/link0/phpebble/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/link0/phpebble/badges/build.png?b=master)](https://scrutinizer-ci.com/g/link0/phpebble/build-status/master)
 
 This package encapsulates external services provided by Pebble to interact with the Pebble Smartwatch
 
